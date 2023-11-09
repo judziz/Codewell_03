@@ -1,0 +1,48 @@
+@media (max-width: 68rem) {
+  body {
+    padding: 5rem 5rem;
+  }
+  main {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .home-lnk {
+    display: none;
+  }
+  .header-login {
+    display: none;
+  }
+  .hamburger-btn {
+    display: block;
+    background-color: rgba(250, 235, 215, 0.22);
+    padding: 0.5rem;
+  }
+  .hamburger-btn:hover {
+    cursor: pointer;
+  }
+}
+@media (max-width: 37rem) {
+  body {
+    padding: 5rem 3rem;
+  }
+  section form {
+    flex-direction: column;
+  }
+  .section-search {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+    position: relative;
+  }
+  svg {
+    position: absolute;
+    left: 8rem;
+    top: 30.3rem;
+    padding-left: 1rem;
+  }
+  main {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}

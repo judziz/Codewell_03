@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Archivo", sans-serif;
+  font-size: 62.5%;
+}
+body {
+  padding: 5rem 14rem;
+  height: 100vh;
+}
+/* --------------HEADER----------------- */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  margin-bottom: 5rem;
+}
+.hamburger-btn {
+  display: none;
+}
+.header-home-page {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.header-home-page a,
+.header-login a {
+  text-decoration: none;
+  color: rgba(57, 53, 48, 0.718);
+}
+.header-home-page a:hover,
+.header-login a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+.header-login {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* --------------MAIN----------------- */
+main {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 3rem;
+}
+.main-map-img-box {
+  padding: 3rem;
+  border: 0.1rem solid rgba(109, 108, 108, 0.45);
+  border-radius: 0.3rem;
+}
+.main-map-img-box img {
+  max-width: 100%;
+}
+.main-section {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.main-campground-box {
+  padding: 3rem;
+  border: 0.1rem solid rgba(109, 108, 108, 0.45);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+  color: rgba(57, 53, 48, 0.718);
+}
+.main-campground-box p {
+  font-style: italic;
+}
+.campground-img-box img {
+  border-radius: 0.4rem;
+  width: 100%;
+}
+.campground-name-price-box {
+  display: flex;
+  justify-content: space-between;
+}
+.campground-name {
+  font-weight: 700;
+  color: black;
+}
+.main-reviews-box {
+  padding: 3rem;
+  border: 0.1rem solid rgba(109, 108, 108, 0.45);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 0.3rem;
+  font-size: 1.5rem;
+  color: rgba(57, 53, 48, 0.718);
+}
+.user-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-bottom: 0.1rem solid rgba(109, 108, 108, 0.45);
+  padding-bottom: 2rem;
+}
+.user-name-box {
+  display: flex;
+  justify-content: space-between;
+}
+.user-name-name {
+  font-weight: 700;
+  color: black;
+}
+.btn-box {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn {
+  font-size: 1.8rem;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 1.5rem 2rem;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.btn:hover {
+  cursor: pointer;
+  text-decoration: underline 0.2rem white;
+  text-underline-offset: 0.5rem;
+}
+.btn:active {
+  background-color: rgba(0, 0, 0, 0.88);
+  transform: translateY(0.1rem);
+}
+/* --------------FOOTER----------------- */
+footer {
+  padding-bottom: 5rem;
+}

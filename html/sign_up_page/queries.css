@@ -1,0 +1,52 @@
+@media (max-width: 74rem) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    align-items: unset;
+  }
+  header {
+    grid-column: 1/1;
+    grid-row: 1/2;
+    width: unset;
+    margin: 5rem 5rem 5rem 5rem;
+  }
+  .section-sign-in {
+    grid-column: 1/1;
+    grid-row: 2/3;
+    width: unset;
+    margin: 0 5rem 5rem 5rem;
+  }
+  form {
+    width: 60rem;
+    margin-top: 3.5rem;
+  }
+  .section-testimonial {
+    grid-column: 1/1;
+    grid-row: 3/4;
+    height: 100%;
+    justify-content: unset;
+    padding: 5rem 5rem 6.5rem 5rem;
+  }
+  .profile-info {
+    gap: unset;
+  }
+}
+@media (max-width: 43rem) {
+  header {
+    padding: 5rem 3rem;
+    margin: unset;
+  }
+  .section-sign-in {
+    margin: 0 0 4rem 0;
+    padding: 0 3rem;
+  }
+  form {
+    width: unset;
+    margin-top: unset;
+  }
+  .section-testimonial {
+    height: unset;
+    padding: 3rem 3rem 3.5rem 3rem;
+  }
+}

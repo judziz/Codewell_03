@@ -1,0 +1,36 @@
+@media (max-width: 68rem) {
+  body {
+    padding: 5rem 5rem;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 3rem;
+    justify-items: center;
+  }
+  .main-section-map {
+    grid-row: 3/4;
+    width: 100%;
+  }
+  .btn-box {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .main-map-img-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-login {
+    display: none;
+  }
+  .hamburger-btn {
+    display: block;
+    background-color: rgba(250, 235, 215, 0.22);
+    padding: 0.5rem;
+  }
+  footer {
+    margin-top: 5rem;
+  }
+}
