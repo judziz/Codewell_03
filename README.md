@@ -3,7 +3,7 @@
 | Useful Links  |
 | ----------------- |
 [Assignement Link](https://www.codewell.cc/challenges/yelpcamp-by-colt-steele--6144c7c8a383e41090a3d84b)
-[Vercel Link - Desktop version]()
+[Vercel Link - Desktop version](https://codewell-03.vercel.app/)
 
 ---
 
